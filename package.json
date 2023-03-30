@@ -1,0 +1,31 @@
+{
+  "name": "graphql-prisma",
+  "version": "1.0.0",
+  "description": "sample prisma-grqphql project",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node ./dist"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts, graphql, gql",
+    "exec": "ts-node --files -r tsconfig-paths/register ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.12.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.12.0"
+  }
+}
