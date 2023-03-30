@@ -4,7 +4,7 @@ This sample `Prisma` project is using `Typescript` and the `Prisma Schema langua
 
 ### Supported Operations
 
-* CRUD operations for `User`, `Post` and `UserPreference`
+* CRUD operations for `User`, `Post`, `UserPreference` and `Category`
 
 ### install command
 
