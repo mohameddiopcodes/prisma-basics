@@ -22,3 +22,4 @@ use `npm run build`. The generated build can be found in the `./dist` folder.
 
 use `npm start` to run queries defined in the `src/index.ts` file without server reloads on save.
 
+Note: You need to add a `.env` file in the project route with `POSTGRES_PASSWORD`, `POSTGRES_USER`, `POSTGRES_DB defined`.
